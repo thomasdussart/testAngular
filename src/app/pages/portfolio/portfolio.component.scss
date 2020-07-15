@@ -1,0 +1,54 @@
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border-left: 3px solid white;
+  color: black;
+}
+
+// a,
+// a:hover,
+// a:active,
+// a:visited {
+//   //   color: white;
+//   text-decoration: none;
+// }
+
+.mern {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/mern.png);
+}
+
+.php {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/php.png);
+}
+
+// .mern:hover {
+//   background-position: center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-image: url(../../img/mern.png);
+// }
+
+// .php:hover {
+//   background-position: center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-image: url(../../img/php.png);
+// }

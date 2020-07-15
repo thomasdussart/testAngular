@@ -13,10 +13,7 @@ import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { fr_FR } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import fr from '@angular/common/locales/fr';
-import { CvComponent } from './pages/cv/cv.component';
-import { PortfolioComponent } from './pages/portfolio/portfolio.component';
-import { HeaderComponent } from './pages/header/header.component';
-import { FooterComponent } from './pages/footer/footer.component';
+import { NzResizableModule } from 'ng-zorro-antd/resizable';
 
 registerLocaleData(fr);
 
@@ -28,6 +25,7 @@ registerLocaleData(fr);
     IconsProviderModule,
     NzLayoutModule,
     NzMenuModule,
+    NzResizableModule,
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
