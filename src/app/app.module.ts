@@ -21,13 +21,7 @@ import { FooterComponent } from './pages/footer/footer.component';
 registerLocaleData(fr);
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CvComponent,
-    PortfolioComponent,
-    HeaderComponent,
-    FooterComponent,
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
