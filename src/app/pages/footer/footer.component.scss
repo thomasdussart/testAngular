@@ -1,7 +1,13 @@
-a,
-a:hover,
-a:active,
-a:visited {
-  color: white;
-  text-decoration: none;
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: space-around;
+  font-size: 45px;
+}
+
+.contactlinks {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
 }

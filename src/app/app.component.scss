@@ -7,14 +7,15 @@
 
 .app-layout {
   height: 100vh;
+  background-color: black;
 }
 
-.menu-sidebar {
-  position: relative;
-  z-index: 10;
-  min-height: 100vh;
-  box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
-}
+// .menu-sidebar {
+//   position: relative;
+//   z-index: 10;
+//   min-height: 100vh;
+//   box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+// }
 
 .header-trigger {
   height: 64px;
@@ -65,7 +66,6 @@ nz-header {
   position: relative;
   height: 64px;
   padding: 0;
-  background: #fff;
   box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
 }
 
@@ -75,7 +75,28 @@ nz-content {
 
 .inner-content {
   padding: 24px;
-  background: #fff;
+  background: #000;
   width: auto;
   height: auto;
+}
+
+nz-footer {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.app-footer {
+  // position: relative;
+  bottom: 0px;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+}
+
+.ant-layout-sider-children {
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }

@@ -5,8 +5,9 @@
 
 .logos {
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  flex-direction: row;
+
+  justify-content: space-evenly;
 }
 
 img {
@@ -14,6 +15,27 @@ img {
   height: 50px;
 }
 
-// img.react {
-//   width: 70px;
-// }
+img.react {
+  width: 70px;
+}
+
+#avatar {
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 60px;
+  width: 220px;
+  height: 220px;
+  border: 2px solid grey;
+}
+
+.cvavatartext {
+  display: flex;
+  flex-direction: row;
+}
+
+.cvtext {
+  display: flex;
+  justify-content: end;
+  margin: auto;
+}
