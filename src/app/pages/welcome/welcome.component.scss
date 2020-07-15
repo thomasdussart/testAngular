@@ -1,4 +1,10 @@
 img {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.aboutmeimagetext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
