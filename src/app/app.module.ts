@@ -13,23 +13,28 @@ import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { fr_FR } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import fr from '@angular/common/locales/fr';
-import { NzResizableModule } from 'ng-zorro-antd/resizable';
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SiderComponent } from './pages/sider/sider.component';
+import { NgZorroAntdModule } from './ng-zorro-antd.module';
 
 registerLocaleData(fr);
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    SiderComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     IconsProviderModule,
     NzLayoutModule,
-    NzMenuModule,
-    NzResizableModule,
     FormsModule,
+    NgZorroAntdModule,
     HttpClientModule,
     BrowserAnimationsModule,
     FontAwesomeModule,

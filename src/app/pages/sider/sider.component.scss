@@ -1,0 +1,23 @@
+app-sider {
+  display: flex;
+}
+
+
+
+.menu {
+  color: #40A8FF;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ul {
+  bottom: auto;
+}
+
+a {
+  color: #40A8FF;
+}
